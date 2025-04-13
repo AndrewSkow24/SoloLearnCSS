@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Наследование стиля</title>
+    <style>
+      p {
+        background-color: plum;
+        color: darkblue;
+      }
+      em {
+        color: plum;
+        background-color: darkslategray;
+      }
+
+      h1 {
+        color: purple;
+        text-align: center;
+      }
+      u {
+        color: orange;
+      }
+      /* селектор поптомка */
+      h3 u {
+        color: seagreen;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Наследование стиля</h1>
+    <p>
+      Правила стилизации для родительских элеметнтов также будут применяться к
+      дочерним элементам по умолчанию. Это известно как наследование. Дочерние
+      элементы наследуют стили от своих родителей
+    </p>
+    <p>
+      Если нужно по-другому отстилизовать дочерний элемент, нужно написать
+      отдельное правило.
+    </p>
+    <h2>Пример</h2>
+    <p>Buy a ticket to <b>Portugal</b>.</p>
+    <h2>Пример 2</h2>
+    <p>
+      <em>Programming</em> is a valuable skill is today's digital age. Learning
+      to code is journey that can open up many oppurtunities.
+    </p>
+    <h1>Jasmine <u>Design</u> Botique</h1>
+    <p>
+      Селектор потомков определяет дочерние элементы внутри конкретного
+      родителя. Он состоит из селектора родителя за которым через пробел следует
+      селектор дочернего элемента.
+    </p>
+
+    <h3>Back to <u>school</u></h3>
+  </body>
+</html>

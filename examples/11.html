@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f8fc;
+      }
+
+      /* Применение рамки вокруг таблицы */
+      #table1 {
+        border: 2px solid #0c1527;
+      }
+
+      /* применение границ к каждой ячейке */
+      #table2 th,
+      #table2 td {
+        border: 2px solid #0c1527;
+      }
+
+      td {
+        text-align: left;
+      }
+
+      th {
+        text-align: left;
+        background-color: #149ef2;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Таблица с рамкой вокруг таблицы</h2>
+    <table id="table1">
+      <tr>
+        <th>Rank</th>
+        <th>Movie Title</th>
+        <th>Director</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Dune</td>
+        <td>Dennis Villeneuve</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Spider-Man: No Way Home</td>
+        <td>Jon Watts</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>The French Dispatch</td>
+        <td>Wes Anderson</td>
+      </tr>
+    </table>
+    <h2>Таблица с границами на всех ячейках</h2>
+    <table id="table2">
+      <tr>
+        <th>Rank</th>
+        <th>Movie Title</th>
+        <th>Director</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Dune</td>
+        <td>Dennis Villeneuve</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Spider-Man: No Way Home</td>
+        <td>Jon Watts</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>The French Dispatch</td>
+        <td>Wes Anderson</td>
+      </tr>
+    </table>
+  </body>
+</html>
